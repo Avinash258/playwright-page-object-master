@@ -19,7 +19,18 @@ jobs:
       run: npx playwright install --with-deps
     - name: Run Playwright tests
       run: npx playwright test
-    - uses: actions/upload-artifact@v4
+    - name: Generate Playwright Report
+      run: |
+        # Example command to generate a report (adjust as per your needs)
+        npx playwright test --reporter=list
+        # Ensure the report is generated in the playwright-report/ directory
+        mkdir -p playwright-report
+        # Move or copy the generated report files to playwright-report/
+        # For example, if files are generated in a different directory, use:
+        # mv generated-reports/* playwright-report/
+        # Replace `generated-reports` with the actual directory containing reports
+    - name: Upload Playwright Report
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: playwright-report
