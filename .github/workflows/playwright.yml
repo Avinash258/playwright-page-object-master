@@ -19,6 +19,11 @@ jobs:
       run: npx playwright install --with-deps
     - name: Run Playwright tests
       run: npx playwright test
+    - name: Generate Playwright Report
+      run: |
+        # Example command to generate a report (adjust as per your needs)
+        npx playwright test --reporter=list
+        # Ensure the report is generated in a directory (e.g., playwright-report/)
     - uses: actions/upload-artifact@v4
       if: always()
       with:
