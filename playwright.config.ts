@@ -6,7 +6,7 @@ const config: PlaywrightTestConfig = {
 
   use: {
     // Browser options
-    headless: true,
+    headless: false,
 
     // Context options
     viewport: { width: 1280, height: 720 },
