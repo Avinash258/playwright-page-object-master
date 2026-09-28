@@ -1,6 +1,6 @@
 # Playwright POM Starter
 
-Page Object Model scaffold for **Playwright** â€” a clean base used for framework rollouts and CoE training.
+Page Object Model scaffold for **Playwright** Ã¢â‚¬â€ a clean base used for framework rollouts and CoE training.
 
 ![Playwright](./playwright-logo.png)
 
@@ -13,7 +13,7 @@ Simple automation test framework written with **TypeScript / JavaScript** and Pl
 - Page Object Model under `pages/` and `framework/`
 - E2E suites and examples (`e2e/`, `tests/`, `tests-examples/`)
 - Dual config support (`playwright.config.ts` / `.js`)
-- GitHub Actionsâ€“ready layout (`.github/`)
+- GitHub ActionsÃ¢â‚¬â€œready layout (`.github/`)
 
 ## Stack
 
@@ -38,11 +38,11 @@ npx playwright test --ui
 pages/                 page objects
 framework/             shared framework helpers
 PlaywrightFrameWork/   extended framework modules
-e2e/ Â· tests/          executable suites
+e2e/ Ã‚Â· tests/          executable suites
 tests-examples/        sample specs
 ```
 
 ## Author
 
-**Avinash Sharma** â€” QA Automation Architect / Lead SDET  
-[GitHub](https://github.com/Avinash258) Â· [LinkedIn](https://www.linkedin.com/in/p-avinash-sharma-8b0203b9/) Â· [Portfolio](https://avinash258.github.io/Protfolio/)
+**Avinash Sharma** Ã¢â‚¬â€ QA Automation Architect / Lead SDET  
+[GitHub](https://github.com/Avinash258) Ã‚Â· [LinkedIn](https://www.linkedin.com/in/p-avinash-sharma-8b0203b9/) Ã‚Â· [Portfolio](https://avinash258.github.io/portfolio/)
